@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <div className="bg-bgColor">
         <Routes>
-          <Route path="/" element={<IntroPage />} />
+          {/* <Route path="/" element={<IntroPage />} /> */}
           <Route path="/home-page" element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
