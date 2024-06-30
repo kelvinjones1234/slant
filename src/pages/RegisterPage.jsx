@@ -10,18 +10,18 @@ const RegisterPage = () => {
           Enter your name and password
         </p>
         <form action="">
-          <div className="relative mt-[3rem]">
+          <div className="relative mt-[3rem] border-b-[1px] border-primary">
             <input
               type="text"
-              className="border-primary text-[15px] font-[500] outline-none border-b-[1px] w-[328px]"
+              className="border-primary text-[15px] font-[500] outline-none w-[328px]"
               value="Adelaja Benjamin"
             />
             <span className="absolute left-0 opacity-70">Full Name</span>
           </div>
-          <div className="relative mt-[3rem]">
+          <div className="relative mt-[3rem] border-b-[1px] border-primary">
             <input
               type="text"
-              className="border-primary text-[15px] font-[500] outline-none border-b-[1px] w-[328px]"
+              className="border-primary text-[15px] font-[500] outline-none w-[328px]"
               value="08141772672"
             />
             <span className="absolute left-0 opacity-70">Phone Number</span>
