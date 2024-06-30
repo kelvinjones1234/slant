@@ -5,8 +5,8 @@
 
 .custom-checkbox {
   appearance: none;
-  width: 16px;
-  height: 12px;
+  min-width: 12px;
+  min-height: 12px;
   border: 2px solid #ED712E;
   border-radius: 2px;
   background-color: white;
