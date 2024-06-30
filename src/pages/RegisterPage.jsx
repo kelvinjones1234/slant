@@ -13,25 +13,34 @@ const RegisterPage = () => {
           <div className="relative mt-[3rem] border-b-[1px] border-primary">
             <input
               type="text"
-              className="text-[15px] font-[500] outline-none w-[328px]"
+              className="text-[15px] font-[500] outline-none w-[328px] form__input transition-all ease-in-out duration-400"
+              required="required"
             />
-            <span className="absolute left-0 opacity-70">Full Name</span>
+            <span className="absolute left-0 opacity-70 pointer-events-none transition-transform duration-400">
+              Full Name
+            </span>
           </div>
           <div className="relative mt-[3rem] border-b-[1px] border-primary">
             <input
               type="text"
-              className="text-[15px] font-[500] outline-none w-[328px]"
+              className="text-[15px] font-[500] outline-none w-[328px] form__input transition-all ease-in-out duration-400"
+              required="required"
             />
-            <span className="absolute left-0 opacity-70">Phone Number</span>
+            <span className="absolute left-0 opacity-70 pointer-events-none transition-transform duration-400">
+              Phone Number
+            </span>
           </div>
           <div className="relative mt-[3rem] border-b-[1px] border-primary">
             <input
               type="password"
-              className="outline-none text-[15px] font-[500] w-[328px]"
+              className="text-[15px] font-[500] outline-none w-[328px] form__input transition-all ease-in-out duration-400"
+              required="required"
             />
-            <span className="absolute left-0 opacity-70">Password</span>
+            <span className="absolute left-0 opacity-70 pointer-events-none transition-transform duration-400">
+              Password
+            </span>
           </div>
-          <div className="flex gap-4 mt-[2.5vh] mb-[2.5vh] items-start w-[328px] text-[14px]">
+          <div className="flex gap-4 mt-[2.5vh] mb-[5vh] items-start w-[328px] text-[14px]">
             <input type="checkbox" className="custom-checkbox mt-1" />
             <p className="">
               I have read and agreed to Slant Menu{" "}
@@ -50,7 +59,3 @@ const RegisterPage = () => {
 };
 
 export default RegisterPage;
-
-
-
-

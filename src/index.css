@@ -31,3 +31,10 @@
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
+
+.form__input:valid ~ span,
+.form__input:focus ~ span {
+  transform: translateY(-14px);
+  font-size: .6rem;
+  padding: 0 .1rem;
+}
