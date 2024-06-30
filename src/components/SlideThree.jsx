@@ -1,5 +1,5 @@
 import React from "react";
-import image2 from "../assets/img/image2.png";
+import image2 from "../assets/img/image2c.png";
 import SlideContent from "./SlideContent";
 
 const SlideThree = () => {

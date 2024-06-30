@@ -1,6 +1,6 @@
 import React from "react";
 import SlideContent from "./SlideContent";
-import image3 from "../assets/img/image3.png";
+import image3 from "../assets/img/image3c.png";
 
 const SlideTwo = () => {
   return (
