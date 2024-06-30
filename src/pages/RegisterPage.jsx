@@ -43,7 +43,7 @@ const RegisterPage = () => {
           </div>
           <div className="flex gap-4 mt-[2.5vh] mb-[5vh] items-start w-[70vw] max-w-[550px] text-[14px]">
             <input type="checkbox" className="custom-checkbox mt-1" />
-            <p className="">
+            <p className="w-full">
               I have read and agreed to Slant Menu{" "}
               <span className="text-primary">Terms & Condition</span>
             </p>
