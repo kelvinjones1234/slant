@@ -6,14 +6,14 @@ const RegisterPage = () => {
     <div className="bg-white flex justify-center h-screen max-w-[640px] mx-auto">
       <div className="mt-[9vh]">
         <h1 className="font-[500] text-[23px]">Create Account</h1>
-        <p className="text-[14px] font-[400] opacity-70 mt-[]">
+        <p className="text-[14px] font-[400] opacity-70">
           Enter your name and password
         </p>
         <form action="">
           <div className="relative mt-[8vh] border-b-[1px] border-primary">
             <input
               type="text"
-              className="text-[15px] font-[500] outline-none w-[70vw] form__input"
+              className="text-[15px] font-[500] outline-none w-[70vw] max-w-[550px] form__input"
               required="required"
             />
             <span className="absolute left-0 opacity-50 pointer-events-none transition-transform duration-500">
@@ -23,7 +23,7 @@ const RegisterPage = () => {
           <div className="relative mt-[8vh] border-b-[1px] border-primary">
             <input
               type="text"
-              className="text-[15px] font-[500] outline-none w-[70vw] form__input "
+              className="text-[15px] font-[500] outline-none w-[70vw] max-w-[550px] form__input "
               required="required"
             />
             <span className="absolute left-0 opacity-50 pointer-events-none transition-transform duration-500">
@@ -33,7 +33,7 @@ const RegisterPage = () => {
           <div className="relative mt-[8vh] border-b-[1px] border-primary">
             <input
               type="password"
-              className="text-[15px] font-[500] outline-none w-[70vw] form__input"
+              className="text-[15px] font-[500] outline-none w-[70vw] max-w-[550px] form__input"
               required="required"
             />
             <span className="absolute left-0 opacity-50 pointer-events-none transition-transform duration-500">
