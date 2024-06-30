@@ -26,10 +26,10 @@ const RegisterPage = () => {
             />
             <span className="absolute left-0 opacity-70">Phone Number</span>
           </div>
-          <div className="relative mt-[3rem]">
+          <div className="relative mt-[3rem] border-b-[1px] border-primary">
             <input
               type="password"
-              className="outline-none border-b-[1px] w-[328px]"
+              className="outline-none w-[328px]"
               value="Adelaja Benjamin"
             />
             <span className="absolute left-0 opacity-70">Password</span>
