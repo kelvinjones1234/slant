@@ -14,7 +14,6 @@ const RegisterPage = () => {
             <input
               type="text"
               className="text-[15px] font-[500] outline-none w-[328px]"
-              value="Adelaja Benjamin"
             />
             <span className="absolute left-0 opacity-70">Full Name</span>
           </div>
@@ -22,7 +21,6 @@ const RegisterPage = () => {
             <input
               type="text"
               className="text-[15px] font-[500] outline-none w-[328px]"
-              value="08141772672"
             />
             <span className="absolute left-0 opacity-70">Phone Number</span>
           </div>
@@ -30,7 +28,6 @@ const RegisterPage = () => {
             <input
               type="password"
               className="outline-none text-[15px] font-[500] w-[328px]"
-              value="Adelaja Benjamin"
             />
             <span className="absolute left-0 opacity-70">Password</span>
           </div>
@@ -43,7 +40,8 @@ const RegisterPage = () => {
           </div>
           <ButtonOne label="Sign Up" />
           <p className="text-center text-primarys mt-[2.5vh]">
-            Already have an account? Log in
+            Already have an account?{" "}
+            <span className="text-primary">Log in</span>
           </p>
         </form>
       </div>
@@ -52,3 +50,7 @@ const RegisterPage = () => {
 };
 
 export default RegisterPage;
+
+
+
+
