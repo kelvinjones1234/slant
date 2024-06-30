@@ -10,7 +10,7 @@ const SlideContent = ({ bg, heading, subheading }) => {
         <div className="relative">
           <div
             style={{ backgroundImage: `url(${bg})` }}
-            className={`bg-center bg-cover h-[45vh] relative z-[50]`}
+            className={`bg-center bg-cover h-[50vh] relative z-[50]`}
           >
             <img
               src={image1}
