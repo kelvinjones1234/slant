@@ -13,7 +13,7 @@ const RegisterPage = () => {
           <div className="relative mt-[3rem] border-b-[1px] border-primary">
             <input
               type="text"
-              className="border-primary text-[15px] font-[500] outline-none w-[328px]"
+              className="text-[15px] font-[500] outline-none w-[328px]"
               value="Adelaja Benjamin"
             />
             <span className="absolute left-0 opacity-70">Full Name</span>
@@ -21,7 +21,7 @@ const RegisterPage = () => {
           <div className="relative mt-[3rem] border-b-[1px] border-primary">
             <input
               type="text"
-              className="border-primary text-[15px] font-[500] outline-none w-[328px]"
+              className="text-[15px] font-[500] outline-none w-[328px]"
               value="08141772672"
             />
             <span className="absolute left-0 opacity-70">Phone Number</span>
@@ -29,7 +29,7 @@ const RegisterPage = () => {
           <div className="relative mt-[3rem] border-b-[1px] border-primary">
             <input
               type="password"
-              className="outline-none w-[328px]"
+              className="outline-none text-[15px] font-[500] w-[328px]"
               value="Adelaja Benjamin"
             />
             <span className="absolute left-0 opacity-70">Password</span>
