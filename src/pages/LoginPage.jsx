@@ -1,5 +1,6 @@
 import React from "react";
 import ButtonOne from "../components/ButtonOne";
+import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   return (
@@ -33,7 +34,9 @@ const LoginPage = () => {
           <ButtonOne label="Sign in" />
           <p className="text-center text-primarys mt-[2.5vh]">
             Already have an account?{" "}
-            <span className="text-primary">Sign Up</span>
+            <Link to={"/register"}>
+              <span className="text-primary">Sign Up</span>
+            </Link>
           </p>
         </form>
       </div>
