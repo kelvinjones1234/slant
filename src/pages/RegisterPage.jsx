@@ -13,30 +13,30 @@ const RegisterPage = () => {
           <div className="relative mt-[3rem] border-b-[1px] border-primary">
             <input
               type="text"
-              className="text-[15px] font-[500] outline-none w-[328px] form__input transition-all ease-in-out duration-400"
+              className="text-[15px] font-[500] outline-none w-[328px] form__input"
               required="required"
             />
-            <span className="absolute left-0 opacity-70 pointer-events-none transition-transform duration-400">
+            <span className="absolute left-0 opacity-70 pointer-events-none transition-transform duration-500">
               Full Name
             </span>
           </div>
           <div className="relative mt-[3rem] border-b-[1px] border-primary">
             <input
               type="text"
-              className="text-[15px] font-[500] outline-none w-[328px] form__input transition-all ease-in-out duration-400"
+              className="text-[15px] font-[500] outline-none w-[328px] form__input "
               required="required"
             />
-            <span className="absolute left-0 opacity-70 pointer-events-none transition-transform duration-400">
+            <span className="absolute left-0 opacity-70 pointer-events-none transition-transform duration-500">
               Phone Number
             </span>
           </div>
           <div className="relative mt-[3rem] border-b-[1px] border-primary">
             <input
               type="password"
-              className="text-[15px] font-[500] outline-none w-[328px] form__input transition-all ease-in-out duration-400"
+              className="text-[15px] font-[500] outline-none w-[328px] form__input"
               required="required"
             />
-            <span className="absolute left-0 opacity-70 pointer-events-none transition-transform duration-400">
+            <span className="absolute left-0 opacity-70 pointer-events-none transition-transform duration-500">
               Password
             </span>
           </div>
