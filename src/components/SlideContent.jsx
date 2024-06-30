@@ -28,7 +28,7 @@ const SlideContent = ({ bg, heading, subheading }) => {
               </p>
             </div>
             <SlideIndicatorOne />
-            <ButtonOne />
+            <ButtonOne label="Get Started" />
             <p className="text-primary text-[14px] font-[500] text-center mt-[2.5vh]">
               Already Have an Account? Login
             </p>

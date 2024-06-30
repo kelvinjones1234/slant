@@ -1,4 +1,5 @@
-import React from "react";import image4 from "../assets/img/image4.png";
+import React from "react";
+import image4 from "../assets/img/image4.png";
 import SlideContent from "./SlideContent";
 
 const SlideOne = () => {
