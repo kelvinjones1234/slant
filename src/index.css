@@ -5,17 +5,17 @@
 
 .custom-checkbox {
   appearance: none;
-  min-width: 12px;
-  min-height: 12px;
+  width: 12px;
+  height: 12px;
   border: 2px solid #ED712E;
   border-radius: 2px;
   background-color: white;
   cursor: pointer;
   position: relative;
+  flex-shrink: 0; /* Prevent resizing */
 }
 
 .custom-checkbox:checked {
-  /* background-color: #ED712E; */
   border-color: #ED712E;
 }
 
@@ -24,13 +24,14 @@
   position: absolute;
   top: px;
   left: 2px;
-  right: 2px;
   width: 4px;
   height: 7px;
   border: solid #ED712E;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
+
+
 
 .form__input:valid ~ span,
 .form__input:focus ~ span {
