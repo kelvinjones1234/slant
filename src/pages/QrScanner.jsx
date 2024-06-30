@@ -2,28 +2,25 @@ import React, { useState } from "react";
 import { QrReader } from "react-qr-reader";
 
 const QrScanner = () => {
-  const [scannedResult, setScannedResult] = useState("");
-
-  const handleScan = (data) => {
-    if (data) {
-      setScannedResult(data);
-    }
-  };
-
-  const handleError = (err) => {
-    console.error("Error:", err);
-  };
+  const [data, setData] = useState("No result");
 
   return (
-    <div>
+    <>
       <QrReader
-        delay={300}
-        onError={handleError}
-        onScan={handleScan}
-        style={{ width: "80%", margin: "0 auto" }}
+        onResult={(result, error) => {
+          if (result) {
+            setData(result?.text);
+          }
+
+          if (error) {
+            console.info(error);
+          }
+        }}
+        constraints={{ facingMode: "user" }} // Use front camera
+        style={{ width: "100%" }}
       />
-      {scannedResult && <p>Scanned result: {scannedResult}</p>}
-    </div>
+      <p>{data}</p>
+    </>
   );
 };
 

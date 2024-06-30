@@ -14,7 +14,7 @@ function App() {
         <Route path="/home-page" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
-        <Route path="/qrscanner" element={<QrScanner />} />
+        <Route path="/scanner" element={<QrScanner />} />
       </Routes>
     </BrowserRouter>
   );
