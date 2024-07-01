@@ -16,7 +16,7 @@ const QrScanner = () => {
             console.info(error);
           }
         }}
-        constraints={{ facingMode: "user" }} // Use front camera
+        constraints={{ facingMode: "user" }} 
         style={{ width: "100%" }}
       />
       <p>{data}</p>

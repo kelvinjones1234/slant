@@ -6,7 +6,7 @@ import ButtonOne from "./ButtonOne";
 const SlideContent = ({ bg, heading, subheading }) => {
   return (
     <>
-      <div className="bg-white h-screen">
+      <div className="bg-white min-h-screen">
         <div className="relative">
           <div
             style={{ backgroundImage: `url(${bg})` }}
@@ -29,7 +29,7 @@ const SlideContent = ({ bg, heading, subheading }) => {
             </div>
             <SlideIndicatorOne />
             <ButtonOne label="Get Started" />
-            <p className="text-primary text-[14px] font-[500] text-center mt-[2.5vh]">
+            <p className="text-primary text-[14px] font-[500] text-center mb-[3.5vh] mt-[2.5vh]">
               Already Have an Account? Login
             </p>
           </div>
